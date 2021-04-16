@@ -2,7 +2,7 @@
 ## Author
 Juma Allan
 ## Description
-Its a website that expalins more about the  dellani studio, what they do offer: their design ,their product management and developement.
+Its a website that explains more about the  dellani studio, what they do offer: their design ,their product management and development.
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
