@@ -1,11 +1,13 @@
-
-.landing{
+.landing {
     background-image: url('../assets/backgrounds/h_img.jpg');
     background-position: center center;
-    background-size: cover;
+    text-align: center;
     background-repeat: no-repeat;
     color: white;
-    text-align: center;
-    padding-top:17%; 
+    background-size: cover;
     font-family: serif;
+    text-align: center;
+    padding-top: 17%;
+
+
 }
