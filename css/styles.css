@@ -27,9 +27,10 @@
     margin: 5px;
 
 }
-#about{
+
+#about {
     font-family: 'Gabriela', serif;
-  }
+}
 
 .about {
     font-family: serif;
@@ -37,4 +38,14 @@
     padding-bottom: 30px;
     padding-top: 40px;
 }
-   
+
+.services {
+    background-image: url("../assets/backgrounds/s_image.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 17px;
+}
