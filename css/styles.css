@@ -132,3 +132,12 @@ input[type="text"] {
   font-family: serif;
   background: transparent;
 }
+#comment{
+  margin-left: 20%;
+  width: 60%;
+}
+button{
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  margin-left: 20%;
+}
