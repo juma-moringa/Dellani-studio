@@ -67,5 +67,22 @@
   .what-we-do .headings{
     padding-bottom: 38px;
   }
+  #portfolio{
+    align-items: center;
+    display: flex;
+    margin-right: 16%; 
+    margin-left:18%;
+    flex-wrap: wrap;
+  }
+  .portfolio h2{
+    font-family: serif;
+    text-align: center;
+    padding-top:40px;
+  }
+  .col-md-3 img{
+    max-height: 100%;
+    max-width: 100%;
+   
+  }
 
    
