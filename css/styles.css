@@ -156,3 +156,6 @@ footer{
   text-align: center;
   font-family: sans-serif;
 }
+footer p{
+  margin-top: 10px;
+}
