@@ -53,10 +53,19 @@
     font-family: serif;
     
   }
-  /* #servicesoverlay{
-    background-color: rgba(0,0,0,0.4);
+   #servicesoverlay{
+    /* background-color: rgba(0,0,0,0.4); */
     padding-top: 10%;
     padding-bottom: 10%;
   }
-   */
+  .what-we-do{
+    padding-top: 40px;
+    font-family: serif;
+    text-align: center;
+    
+  }
+  .what-we-do .headings{
+    padding-bottom: 38px;
+  }
+
    
