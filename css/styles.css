@@ -157,3 +157,8 @@ footer{
 footer p{
   margin-top: 10px;
 }
+#product, #development, #design{
+  display: none;
+  font-family: 'Copse', serif;
+  font-size: 16px;
+}
