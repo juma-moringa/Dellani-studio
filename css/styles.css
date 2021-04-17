@@ -166,3 +166,18 @@ footer p{
   font-size: 20px;
   font-weight: 500;
 }
+#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
+  display: none;
+  font-size: 30px;
+  padding-top: 50%;
+  top: 20px;
+  left: 35px;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(250, 245, 245, 0.456);
+  color: rgb(15, 1, 1);
+  position:absolute;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive;
+}
