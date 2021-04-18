@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
-  font-family: serif;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   padding-top: 17%;
 }
@@ -29,7 +29,7 @@
 }
 
 #about {
-  font-family: 'Gabriela', serif;
+  font-family: 'Dancing Script', cursive;
 }
 
 .about {
@@ -47,23 +47,27 @@
   font-family: serif;
   background-repeat: no-repeat;
   background-position: center;
-  font-size: 17px;
+  font-size: 25px;
+  height: 300px;
 }
 
 .services h2 {
   font-family: serif;
+  text-align: center;
+  padding-top: 3%;
+  color: white;
 
 }
 
 #servicesoverlay {
-  /* background-color: rgba(0,0,0,0.4); */
-  padding-top: 10%;
-  padding-bottom: 10%;
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 20%;
+  padding-bottom: 10%; 
 }
 
 .what-we-do {
   padding-top: 40px;
-  font-family: serif;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
 
 }
@@ -87,6 +91,9 @@
   text-align: center;
   padding-top: 40px;
 }
+.col-md-3{
+  position: relative;
+}
 
 .col-md-3 img {
   max-height: 100%;
@@ -107,7 +114,7 @@
 }
 
 .contact h2 {
-  font-family: serif;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
@@ -117,8 +124,10 @@
 #comment {
   color: white;
   font-size: 20px;
-  font-family: serif;
+ font-family: 'Dancing Script', cursive;
   background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px
 }
 
 input[type="email"] {
@@ -134,64 +143,50 @@ input[type="text"] {
   font-family: serif;
   background: transparent;
 }
-/* form{
-  width: 50%;
-} */
-form{
-  width:100%;
-  margin: auto;
-}
-.form-control::placeholder {
-  color: white;
-  opacity: 1;
-}
 
-#comment{
-  margin-left: 20%;
-  width: 60%;
+.form-control::-webkit-input-placeholder { 
+  color: white; 
 }
 button{
   margin-bottom: 20px;
   padding-bottom: 30px;
-  margin-left: 20%;
+
 }
-#forminput1{
-  width: 30%;
-  margin-left: 18%;
-  margin-right: 30px;
-}
-#forminput2{
-  width: 30%;
-}
+
 footer{
   padding-top: 30px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Dancing Script', cursive;
 }
 footer p{
   margin-top: 10px;
 }
  #design, #product, #development{
   display: none;
-  font-family:serif;
+  font-family: Helvetica,Arial,sans-serif;
   font-size: 16px;
 }
 #design .title , #product .title, #development .title{
   font-size: 20px;
   font-weight: 500;
 }
-#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
-  display: none;
-  font-size: 30px;
-  padding-top: 50%;
-  top: 20px;
-  left: 35px;
+#overlay,#overlay1,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7{
+  display: none; 
+  font-size: 20px;
+  padding-top: 40%;
+  padding: 20px;
+  top: 0%;
+  left: 0%;
   width: 100%;
   height: 100%;
   background-color:rgba(250, 245, 245, 0.456);
-  color: rgb(15, 1, 1);
+  color:lime;
   position:absolute;
-  font-weight: bold;
+  font-weight:bold;
   text-align: center;
   font-family: cursive;
+  
+
+  
 }
+

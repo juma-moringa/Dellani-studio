@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dellani Studio</title>
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
 </head>
@@ -132,25 +137,24 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid contact">
+    <div class="contact">
         <h2>CONTACT US</h2>
-
-        <form id="form" action="https://us1.admin.mailchimp.com/account/connected-sites/app-selection/" method="POST">
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" id="name" placeholder="Name..." name="forminput1"
-                        id="forminput1" value="">
-                </div>
-                <div class="col">
-                    <input type="email" id="email" class="form-control" placeholder="Email..." name="forminput2"
-                        id="forminput2" value="">
-                </div>
+        <form class="container" id="formsubmit" formaction="https://gmail.us1.list-manage.com/subscribe/post?u=0f33b3b589cf29de1cd8501cb&amp;id=e92b43abd1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
+            <div class="d-flex justify-content-between">
+                <input type="text" class="form-control" placeholder="Name...." name="MERGE1" id="MERGE1" size="25"
+                    value="">
+                <input type="email" class="form-control" placeholder="Email...." autocapitalize="off" autocorrect="off"
+                    name="MERGE0" id="MERGE0" size="25" value="">
             </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="8" id="comment" placeholder="Your message here...."></textarea>
+            <div>
+                    <textarea id="comment" name="textarea" class="form-control" placeholder=" Your message here please..."
+                    cols="30" rows="10"></textarea>    
             </div>
             <button type="submit" class="btn btn-success col-md-1">Submit</button>
         </form>
+       
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'></script>
     </div>
     <footer>
         <img src="assets/social_icons/twitter.png" alt="twitter">
