@@ -1,4 +1,4 @@
-
+// toggle effect
 $(document).ready(function(){
     $("#toggler").click(function(){
       $("#design-image").toggle();
@@ -18,7 +18,7 @@ $(document).ready(function(){
     });
   }); 
 
-
+// hoover effect
   $(document).ready(function(){
     $("#work1").mouseover(function(){
       $("#overlay").show();
@@ -79,14 +79,7 @@ $(document).ready(function(){
 
 
 
-  //   //add hover effect and text to each project
-  //   $('.work1').hover(function () {
-  //     $(this).css("opacity", "0.7");
-  //     $('.overlay').removeClass('text');
-  // }, function () {
-  //     $(this).css("opacity", "1");
-  //     $('.overlay').addClass('text');
-  // });
+// mailchimp function
   (function($) {window.fnames = new Array(); 
     window.ftypes = new Array();
     fnames[0]='EMAIL';
@@ -101,6 +94,7 @@ $(document).ready(function(){
     var $mcj = jQuery.noConflict(true);
 
 
+    // alert function
     $(document).ready(function(){
       $("form#formsubmit").submit(function(event){
          event.preventDefault();
